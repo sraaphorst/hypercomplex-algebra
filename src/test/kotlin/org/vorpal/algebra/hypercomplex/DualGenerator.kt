@@ -1,12 +1,11 @@
 // DualGenerator.ks
 // By Sebastian Raaphorst, 2025.
 
-package algebra.hypercomplex
+package org.vorpal.algebra.hypercomplex
 
 import io.kotest.property.Arb
 import io.kotest.property.arbitrary.bind
 import io.kotest.property.arbitrary.double
-import org.vorpal.algebra.hypercomplex.algebra.hypercomplex.Dual
 
 private const val MIN_DOUBLE = -1000.0
 private const val MAX_DOUBLE =  1000.0

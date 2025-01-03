@@ -1,9 +1,8 @@
 // Dual.kt
 // By Sebastian Raaphorst, 2025.
 
-package org.vorpal.algebra.hypercomplex.algebra.hypercomplex
+package org.vorpal.algebra.hypercomplex
 
-import org.vorpal.algebra.hypercomplex.HypercomplexAlgebra
 import kotlin.math.ln
 import kotlin.math.pow
 

@@ -1,11 +1,10 @@
 // DualTests.ks
 // By Sebastian Raaphorst, 2025.
 
-package algebra.hypercomplex
+package org.vorpal.algebra.hypercomplex
 
 import io.kotest.core.spec.style.StringSpec
 import io.kotest.property.forAll
-import org.vorpal.algebra.hypercomplex.algebra.hypercomplex.Dual
 
 class DualTests : StringSpec({
     "Dual addition should be commutative" {
