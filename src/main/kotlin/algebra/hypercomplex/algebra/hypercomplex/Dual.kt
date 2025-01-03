@@ -90,6 +90,9 @@ data class Dual(val real: Double, val epsilon: Double): HypercomplexAlgebra<Dual
         return Dual(1.0 / real, -epsilon / real.pow(2))
     }
 
+    override fun toString(): String =
+        "$real + ${epsilon}e"
+
     companion object {
         val E = Dual(0.0, 1.0)
         val DualUnit = Dual(0.0, 1.0)
